@@ -259,30 +259,31 @@ body {
     color: white;
 }
 
-
-.projectstuff {
-    display: flex;
-    width: 100vw;
-}
-
-.projectstuff a {
-    display: flex;
-    justify-content: center;
-}
-
-.projectwrapleft {
+.projectwrap {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-.projectwrapright {
+.projectcard {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+.repository {
+    text-decoration: none;
+    color: white;
+}
+
+/* .projectcard {
+    display: flex;
+    flex-direction: column;
+} */
 
 .projectimg {
-    width: 90%;
-    padding: 5%;
+    width: 1000px;
+    height: 800px;
 }
 
 @media screen and (max-width: 992px) {
