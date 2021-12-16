@@ -1,0 +1,234 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* background of the city */
+.section1 {
+    width: 100vw;
+}
+
+/* here from line 50 is the mostly things in nav if needed to be edited */
+#nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+  border-bottom: 2px solid #000000;
+}
+
+.navleft h1 {
+  display: flex;
+  padding-left: 20px;
+  font-size: 50px;
+}
+
+.navleft{
+  display: flex;
+  width: 75%;
+}
+
+.navright {
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+.logo {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+#bio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.desc-container {
+  display: flex;
+  width: 75%;
+  margin-left: 10%;
+}
+
+.baylor {
+  width: 25%;
+}
+
+.maindesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: xx-large;
+  width: 100%;
+  justify-content: center;
+}
+
+.maindesc h2 {
+  margin-top: 0;
+}
+
+.maindesc p {
+  width: 50%;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.maindesc .pin {
+  width: 25px;
+  height: 25px;
+}
+
+.bae {
+  width: 250px;
+  height: 250px;
+  background: url(bae.jpg);
+  border-radius: 50%;
+  justify-content: left;
+}
+
+.section1footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15%;
+}
+
+#directionleft {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.directionright {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 70%;
+}
+
+.section1footer a {
+  color: black;
+  text-decoration: none;
+}
+
+/* from here to line 165 it uses borders to make some boxes around some a tags */
+.section1footer .circle {
+  width: 280px;
+  height: 280px;
+  border: 3px solid black;
+  border-radius: 150px;
+  color: black;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectstease {
+  width: 330px;
+  height: 220px;
+  display: flex;
+  border: 3px solid black;
+  margin-right: 30px;
+}
+
+.section1footer .square {
+  width: 300px;
+  height: 220px;
+  border: 3px solid black;
+  box-sizing: border-box;
+  color: white;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.aboutmesec {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+}
+
+#more {
+  color: rgb(105, 105, 105);
+}
+
+#about-me {
+  margin-top: 0px;
+}
+
+.more {
+  font-size: smaller;
+  color: gray;
+}
+
+/* need to add resume once its created */
+.resumebutton {
+  margin-top: -30px;
+}
+
+
+.baylorsresume {
+  border: solid black 1px;
+  color: white;
+  text-align: center;
+  background-color: rgb(86, 184, 216);
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 20%;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.extras p {
+  margin-top: -30px;
+}
+
+.circle a:hover {
+  color: red;
+}
+
+.square a:hover {
+  color: red;
+}
+
+.projectimg {
+  width: 100%;
+  height: 90%;
+}
+
+/* .fbend {
+  display: flex;
+}
+
+.fbtitleright {
+  margin-left: 25px;
+}
+
+.frontbackiconsec {
+  display: flex;
+  align-items: center;
+}
+
+.fbicon {
+  display: flex;
+  width: 25px;
+  height: 25px;
+} */
