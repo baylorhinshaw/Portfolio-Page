@@ -1,18 +1,19 @@
 # Portfolio-Page
-In this repository I have made a portfolio page for myself using html and css.
-I have been working on this very thoroughly and will slowly come back and add more when I work on more projects.
 
 ## Link to deployed Portfolio
+https://baylorportfoliopage.herokuapp.com/
 
-## Technologies used 
+## Technologies used:
+Express
 
 ## What is this application?
+I built this application for I could have a portfolio page where I can display all of my projects and a little bit about myself. 
 
 ## Screenshot or gif
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/87034682/146602435-b3d84f8e-2b40-4c19-a4d0-e0dd66816826.gif)
+![newPortfolioPageBae](https://user-images.githubusercontent.com/87034682/146604503-deb81016-2a48-4cb4-81ed-62c083735f4d.PNG)
 
 ## License
- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## contact info
-
+## Contact Info
+Email: baylorhinshaw21@gmail.com
